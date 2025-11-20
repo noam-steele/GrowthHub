@@ -16,7 +16,7 @@ const CryptoCard = ({ coin }) => {
     }).join(' ');
 
     return (
-        <div className="glass-panel p-4 crypto-card animate-fade-in">
+        <div className="glass-panel p-4 crypto-card animate-fade-in h-100">
             <div className="d-flex align-items-center justify-content-between mb-4">
                 <div className="d-flex align-items-center gap-3">
                     <img src={coin.image} alt={coin.name} className="rounded-circle" style={{ width: '2.5rem', height: '2.5rem' }} />
