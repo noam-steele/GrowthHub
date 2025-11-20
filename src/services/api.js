@@ -53,7 +53,7 @@ const getMockNews = () => [
   {
     title: "Bitcoin Reaches New All-Time High Amid Institutional Adoption",
     description: "Major financial institutions continue to embrace cryptocurrency as Bitcoin surges past previous records.",
-    url: "https://example.com/news1",
+    url: "https://www.coindesk.com/markets/2024/11/15/bitcoin-hits-new-highs/",
     urlToImage: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=400",
     publishedAt: new Date().toISOString(),
     source: { name: "Crypto News" }
@@ -61,7 +61,7 @@ const getMockNews = () => [
   {
     title: "Ethereum 2.0 Upgrade Shows Promising Results",
     description: "The latest Ethereum network upgrade demonstrates significant improvements in transaction speed and energy efficiency.",
-    url: "https://example.com/news2",
+    url: "https://cointelegraph.com/news/ethereum-2-0-upgrade-success",
     urlToImage: "https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=400",
     publishedAt: new Date(Date.now() - 3600000).toISOString(),
     source: { name: "Blockchain Today" }
@@ -69,7 +69,7 @@ const getMockNews = () => [
   {
     title: "Regulatory Clarity Boosts Crypto Market Confidence",
     description: "New regulatory frameworks provide clearer guidelines for cryptocurrency operations worldwide.",
-    url: "https://example.com/news3",
+    url: "https://www.bloomberg.com/crypto",
     urlToImage: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400",
     publishedAt: new Date(Date.now() - 7200000).toISOString(),
     source: { name: "Financial Times" }
@@ -77,7 +77,7 @@ const getMockNews = () => [
   {
     title: "DeFi Platforms See Record Trading Volumes",
     description: "Decentralized finance continues to grow with unprecedented user engagement and trading activity.",
-    url: "https://example.com/news4",
+    url: "https://decrypt.co/defi",
     urlToImage: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=400",
     publishedAt: new Date(Date.now() - 10800000).toISOString(),
     source: { name: "DeFi Weekly" }

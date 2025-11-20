@@ -19,7 +19,8 @@ const NewsCard = ({ article }) => {
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-decoration-none d-block"
+            className="text-decoration-none d-block position-relative"
+            style={{ zIndex: 10, cursor: 'pointer' }}
         >
             <div className="glass-panel p-4 news-card-carousel" style={{ height: '380px' }}>
                 <div className="d-flex flex-column h-100">
