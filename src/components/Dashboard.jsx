@@ -55,7 +55,7 @@ const Dashboard = () => {
                         {/* 3x3 Crypto Grid */}
                         <div className="row g-4 mb-5">
                             {coins.map((coin) => (
-                                <div key={coin.id} className="col-4">
+                                <div key={coin.id} className="col-12 col-md-6 col-lg-4">
                                     <CryptoCard coin={coin} />
                                 </div>
                             ))}

@@ -178,8 +178,8 @@ body {
 }
 
 .news-carousel-item {
-  flex: 0 0 400px;
-  width: 400px;
+  flex: 0 0 min(400px, 90vw);
+  width: min(400px, 90vw);
 }
 
 .news-card-carousel {
